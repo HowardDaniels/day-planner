@@ -11,3 +11,64 @@
     font-size: 20px;
     text-align: center;
 }
+
+#schedule{
+    margin-left: 10%;
+}
+
+#time{
+    background-color: white;
+    color: black;
+    height: 50px;
+    border: 2px solid black;
+}
+
+#notes9{
+    background-color: gray;
+    border: 2px solid black;
+}
+
+#notes10{
+    background-color: gray;
+    border: 2px solid black;
+}
+
+#notes11{
+    background-color: gray;
+    border: 2px solid black;
+}
+
+#notes12{
+    background-color: gray;
+    border: 2px solid black;
+}
+
+#notes13{
+    background-color: gray;
+    border: 2px solid black;
+}
+
+#notes14{
+    background-color: gray;
+    border: 2px solid black;
+}
+
+#notes15{
+    background-color: gray;
+    border: 2px solid black;
+}
+
+#notes16{
+    background-color: gray;
+    border: 2px solid black;
+}
+
+#notes17{
+    background-color: gray;
+    border: 2px solid black;
+}
+
+#save{
+    background-color: blue;
+    border: 2px solid black;
+}
