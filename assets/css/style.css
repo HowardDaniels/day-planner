@@ -12,6 +12,10 @@
     text-align: center;
 }
 
+#time{
+    border-color: white;
+}
+
 #schedule{
     margin-left: 10%;
 }
@@ -19,8 +23,12 @@
 #time{
     background-color: white;
     color: black;
-    height: 50px;
+    height: 75px;
     border: 2px solid black;
+}
+
+.form-control{
+    background-color: gray;
 }
 
 #notes9{
