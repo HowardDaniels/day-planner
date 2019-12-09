@@ -80,3 +80,14 @@
     background-color: blue;
     border: 2px solid black;
 }
+
+.form-control::placeholder{
+    color: white;
+    font-style: italic;
+}
+
+#button-addon2{
+    color: white;
+    font-weight: bold;
+    border: hidden;
+}
