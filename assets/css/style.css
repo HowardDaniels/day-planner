@@ -86,7 +86,7 @@
     font-style: italic;
 }
 
-#button-addon2{
+.btn-outline-secondary{
     color: white;
     font-weight: bold;
     border: hidden;
