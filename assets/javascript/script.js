@@ -8,9 +8,13 @@ $("#time").text(t);
 
 var h = parseInt(t.substring(0, Math.min(t.length, 2)));
 
-h = 9;
+h = 8;
 
-if (h = 9){
+if (h < 9){
+
+}
+/*
+else if (h = 9){
     document.getElementById("notes9").setAttribute("style", "background-color: lightgreen;");
     document.getElementById("nineam").setAttribute("style", "background-color: lightgreen;");
     
