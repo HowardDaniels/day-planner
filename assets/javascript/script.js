@@ -5,12 +5,12 @@ $("#weekday").text(wd);
 var t = moment().format('LTS');
 $("#time").text(t);
 
-
-var h = parseInt(t.substring(0, Math.min(t.length, 2)));
+var t24 = moment().format();
+var h = parseInt(t24.substring(11, Math.min(t24.length, 13)));
 
 h = 8;
 
-if (h < 9){
+if ((h < 9) || (h > 17)){
 
 }
 /*
