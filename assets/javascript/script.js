@@ -5,19 +5,20 @@ $("#weekday").text(wd);
 var t = moment().format('LTS');
 $("#time").text(t);
 
-/*
+
 var h = parseInt(t.substring(0, Math.min(t.length, 2)));
 
-alert(t);
-alert(h);
+h = 9;
 
-if (h <= 9){
+if (h = 9){
     document.getElementById("notes9").setAttribute("style", "background-color: lightgreen;");
     document.getElementById("nineam").setAttribute("style", "background-color: lightgreen;");
     
 }
 
-else if (h > 9){
+/*
+
+else if (h = 10){
     document.getElementById("notes9").setAttribute("style", "background-color: tan;");
     document.getElementById("nineam").setAttribute("style", "background-color: tan;");
     document.getElementById("notes10").setAttribute("style", "background-color: lightgreen;");
