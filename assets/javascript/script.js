@@ -9,9 +9,9 @@ var t24 = moment().format();
 var h = parseInt(t24.substring(11, Math.min(t24.length, 13)));
 */
 
-var h = 11;
+var h = 12;
 
-if ((h < 9) || (h > 11)){
+if ((h < 9) || (h > 12)){
 alert("yeah");
 }
 
@@ -34,6 +34,17 @@ else if (h == 11){
     document.getElementById("tenam").setAttribute("style", "background-color: gray; color: white;");
     document.getElementById("notes11").setAttribute("style", "background-color: lightgreen;");
     document.getElementById("elevenam").setAttribute("style", "background-color: lightgreen;");
+}
+
+else if (h == 12){
+    document.getElementById("notes9").setAttribute("style", "background-color: gray;");
+    document.getElementById("nineam").setAttribute("style", "background-color: gray; color: white;");
+    document.getElementById("notes10").setAttribute("style", "background-color: gray;");
+    document.getElementById("tenam").setAttribute("style", "background-color: gray; color: white;");
+    document.getElementById("notes11").setAttribute("style", "background-color: gray;");
+    document.getElementById("elevenam").setAttribute("style", "background-color: gray; color: white;");
+    document.getElementById("notes12").setAttribute("style", "background-color: lightgreen;");
+    document.getElementById("twelvepm").setAttribute("style", "background-color: lightgreen;");
 }
 /*
 
