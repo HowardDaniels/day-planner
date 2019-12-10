@@ -9,9 +9,9 @@ var t24 = moment().format();
 var h = parseInt(t24.substring(11, Math.min(t24.length, 13)));
 */
 
-var h = 14;
+var h = 15;
 
-if ((h < 9) || (h > 14)){
+if ((h < 9) || (h > 15)){
 alert("yeah");
 }
 
@@ -73,6 +73,23 @@ else if (h == 14){
     document.getElementById("onepm").setAttribute("style", "background-color: gray; color: white;");
     document.getElementById("notes14").setAttribute("style", "background-color: lightgreen;");
     document.getElementById("twopm").setAttribute("style", "background-color: lightgreen;");
+}
+
+else if (h == 15){
+    document.getElementById("notes9").setAttribute("style", "background-color: gray;");
+    document.getElementById("nineam").setAttribute("style", "background-color: gray; color: white;");
+    document.getElementById("notes10").setAttribute("style", "background-color: gray;");
+    document.getElementById("tenam").setAttribute("style", "background-color: gray; color: white;");
+    document.getElementById("notes11").setAttribute("style", "background-color: gray;");
+    document.getElementById("elevenam").setAttribute("style", "background-color: gray; color: white;");
+    document.getElementById("notes12").setAttribute("style", "background-color: gray;");
+    document.getElementById("twelvepm").setAttribute("style", "background-color: gray; color: white;");
+    document.getElementById("notes13").setAttribute("style", "background-color: gray;");
+    document.getElementById("onepm").setAttribute("style", "background-color: gray; color: white;");
+    document.getElementById("notes14").setAttribute("style", "background-color: gray;");
+    document.getElementById("twopm").setAttribute("style", "background-color: gray; color: white;");
+    document.getElementById("notes15").setAttribute("style", "background-color: lightgreen;");
+    document.getElementById("threepm").setAttribute("style", "background-color: lightgreen;");
 }
 /*
 
