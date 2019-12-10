@@ -5,6 +5,27 @@ $("#weekday").text(wd);
 var t = moment().format('LTS');
 $("#time").text(t);
 
+/*
+var h = parseInt(t.substring(0, Math.min(t.length, 2)));
+
+alert(t);
+alert(h);
+
+if (h <= 9){
+    document.getElementById("notes9").setAttribute("style", "background-color: lightgreen;");
+    document.getElementById("nineam").setAttribute("style", "background-color: lightgreen;");
+    
+}
+
+else if (h > 9){
+    document.getElementById("notes9").setAttribute("style", "background-color: tan;");
+    document.getElementById("nineam").setAttribute("style", "background-color: tan;");
+    document.getElementById("notes10").setAttribute("style", "background-color: lightgreen;");
+    document.getElementById("tenam").setAttribute("style", "background-color: lightgreen;");
+}
+/*
+
+/*
 document.querySelector('#nineam').addEventListener('keypress', function (e) {
     var key = e.which || e.keyCode;
     if (key === 13) { 
@@ -128,4 +149,4 @@ document.querySelector('#fivepm').addEventListener('keypress', function (e) {
 document.querySelector("#save17").addEventListener("click", function(){
     document.getElementById("notes17").setAttribute("style", "background-color: green;");
         document.getElementById("fivepm").setAttribute("style", "background-color: green;");
-});
+}); */
