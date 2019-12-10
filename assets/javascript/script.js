@@ -4,27 +4,25 @@ var wd = moment().format('dddd');
 $("#weekday").text(wd);
 var t = moment().format('LTS');
 $("#time").text(t);
-
+/*
 var t24 = moment().format();
 var h = parseInt(t24.substring(11, Math.min(t24.length, 13)));
+*/
 
-h = 8;
+var h = 10;
 
-if ((h < 9) || (h > 17)){
-
+if ((h < 9) || (h > 10)){
+alert("yeah");
 }
-/*
-else if (h = 9){
+
+else if (h == 9){
     document.getElementById("notes9").setAttribute("style", "background-color: lightgreen;");
     document.getElementById("nineam").setAttribute("style", "background-color: lightgreen;");
-    
 }
 
-/*
-
-else if (h = 10){
-    document.getElementById("notes9").setAttribute("style", "background-color: tan;");
-    document.getElementById("nineam").setAttribute("style", "background-color: tan;");
+else if (h == 10){
+    document.getElementById("notes9").setAttribute("style", "background-color: gray;");
+    document.getElementById("nineam").setAttribute("style", "background-color: gray; color: white;");
     document.getElementById("notes10").setAttribute("style", "background-color: lightgreen;");
     document.getElementById("tenam").setAttribute("style", "background-color: lightgreen;");
 }
