@@ -4,12 +4,9 @@ var wd = moment().format('dddd');
 $("#weekday").text(wd);
 var t = moment().format('LTS');
 $("#time").text(t);
-/*
+
 var t24 = moment().format();
 var h = parseInt(t24.substring(11, Math.min(t24.length, 13)));
-*/
-
-var h = 17;
 
 if ((h < 9) || (h > 17)){
 alert("yeah");
