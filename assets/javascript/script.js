@@ -9,7 +9,7 @@ var t24 = moment().format();
 var h = parseInt(t24.substring(11, Math.min(t24.length, 13)));
 
 if ((h < 9) || (h > 17)){
-alert("yeah");
+
 }
 
 else if (h == 9){
@@ -128,23 +128,54 @@ else if (h == 17){
     document.getElementById("notes17").setAttribute("style", "background-color: lightgreen;");
     document.getElementById("fivepm").setAttribute("style", "background-color: lightgreen;");
 }
-/*
-
-/*
-document.querySelector('#nineam').addEventListener('keypress', function (e) {
-    var key = e.which || e.keyCode;
-    if (key === 13) { 
-        document.getElementById("notes9").setAttribute("style", "background-color: red;");
-        document.getElementById("nineam").setAttribute("style", "background-color: red; font-weight: bold;");
-  }
-});
 
 document.querySelector("#save9").addEventListener("click", function(){
-    document.getElementById("notes9").setAttribute("style", "background-color: green;");
-        document.getElementById("nineam").setAttribute("style", "background-color: green;");
+    var input9 = document.getElementById("nineam").value;
+    alert(input9);
+});
+
+document.querySelector("#save10").addEventListener("click", function(){
+    var input10 = document.getElementById("tenam").value;
+    alert(input10);
+});
+
+document.querySelector("#save11").addEventListener("click", function(){
+    var input11 = document.getElementById("elevenam").value;
+    alert(input11);
+});
+
+document.querySelector("#save12").addEventListener("click", function(){
+    var input12 = document.getElementById("twelvepm").value;
+    alert(input12);
+});
+
+document.querySelector("#save13").addEventListener("click", function(){
+    var input13 = document.getElementById("onepm").value;
+    alert(input13);
+});
+
+document.querySelector("#save14").addEventListener("click", function(){
+    var input14 = document.getElementById("twopm").value;
+    alert(input14);
+});
+
+document.querySelector("#save15").addEventListener("click", function(){
+    var input15 = document.getElementById("threepm").value;
+    alert(input15);
+});
+
+document.querySelector("#save16").addEventListener("click", function(){
+    var input16 = document.getElementById("fourpm").value;
+    alert(input16);
+});
+
+document.querySelector("#save17").addEventListener("click", function(){
+    var input17= document.getElementById("fivepm").value;
+    alert(input17);
 });
 
 
+/*
 document.querySelector('#tenam').addEventListener('keypress', function (e) {
     var key = e.which || e.keyCode;
     if (key === 13) { 
