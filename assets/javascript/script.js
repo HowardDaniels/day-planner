@@ -130,14 +130,14 @@ else if (h == 17){
 }
 
 document.getElementById("nineam").value = localStorage.getItem("input9");
-document.getElementById("nineam").value = localStorage.getItem("input10");
-document.getElementById("nineam").value = localStorage.getItem("input11");
-document.getElementById("nineam").value = localStorage.getItem("input12");
-document.getElementById("nineam").value = localStorage.getItem("input13");
-document.getElementById("nineam").value = localStorage.getItem("input14");
-document.getElementById("nineam").value = localStorage.getItem("input15");
-document.getElementById("nineam").value = localStorage.getItem("input16");
-document.getElementById("nineam").value = localStorage.getItem("input17");
+document.getElementById("tenam").value = localStorage.getItem("input10");
+document.getElementById("elevenam").value = localStorage.getItem("input11");
+document.getElementById("twelvepm").value = localStorage.getItem("input12");
+document.getElementById("onepm").value = localStorage.getItem("input13");
+document.getElementById("twopm").value = localStorage.getItem("input14");
+document.getElementById("threepm").value = localStorage.getItem("input15");
+document.getElementById("fourpm").value = localStorage.getItem("input16");
+document.getElementById("fivepm").value = localStorage.getItem("input17");
 
 document.querySelector("#save9").addEventListener("click", function(){
     var input9 = document.getElementById("nineam").value;
