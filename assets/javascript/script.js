@@ -130,54 +130,76 @@ else if (h == 17){
 }
 
 document.getElementById("nineam").value = localStorage.getItem("input9");
+document.getElementById("nineam").value = localStorage.getItem("input10");
+document.getElementById("nineam").value = localStorage.getItem("input11");
+document.getElementById("nineam").value = localStorage.getItem("input12");
+document.getElementById("nineam").value = localStorage.getItem("input13");
+document.getElementById("nineam").value = localStorage.getItem("input14");
+document.getElementById("nineam").value = localStorage.getItem("input15");
+document.getElementById("nineam").value = localStorage.getItem("input16");
+document.getElementById("nineam").value = localStorage.getItem("input17");
 
 document.querySelector("#save9").addEventListener("click", function(){
     var input9 = document.getElementById("nineam").value;
-    alert(input9);
     localStorage.setItem("input9", input9);
-    savedevent9 = localStorage.getItem("input9");
-    alert(savedevent9);
+    var savedevent9 = localStorage.getItem("input9");
     input9 = savedevent9;
 });
 
 document.querySelector("#save10").addEventListener("click", function(){
     var input10 = document.getElementById("tenam").value;
-    alert(input10);
+    localStorage.setItem("input10", input10);
+    var savedevent10 = localStorage.getItem("input10");
+    input10 = savedevent10;
 });
 
 document.querySelector("#save11").addEventListener("click", function(){
     var input11 = document.getElementById("elevenam").value;
-    alert(input11);
+    localStorage.setItem("input11", input11);
+    var savedevent11 = localStorage.getItem("input11");
+    input11 = savedevent11;
 });
 
 document.querySelector("#save12").addEventListener("click", function(){
     var input12 = document.getElementById("twelvepm").value;
-    alert(input12);
+    localStorage.setItem("input12", input12);
+    var savedevent12 = localStorage.getItem("input12");
+    input12 = savedevent12;
 });
 
 document.querySelector("#save13").addEventListener("click", function(){
     var input13 = document.getElementById("onepm").value;
-    alert(input13);
+    localStorage.setItem("input13", input13);
+    var savedevent13 = localStorage.getItem("input13");
+    input13 = savedevent13;
 });
 
 document.querySelector("#save14").addEventListener("click", function(){
     var input14 = document.getElementById("twopm").value;
-    alert(input14);
+    localStorage.setItem("input14", input14);
+    var savedevent14 = localStorage.getItem("input14");
+    input14 = savedevent14;
 });
 
 document.querySelector("#save15").addEventListener("click", function(){
     var input15 = document.getElementById("threepm").value;
-    alert(input15);
+    localStorage.setItem("input15", input15);
+    var savedevent15 = localStorage.getItem("input15");
+    input15 = savedevent15;
 });
 
 document.querySelector("#save16").addEventListener("click", function(){
     var input16 = document.getElementById("fourpm").value;
-    alert(input16);
+    localStorage.setItem("input16", input16);
+    var savedevent16 = localStorage.getItem("input16");
+    input16 = savedevent16;
 });
 
 document.querySelector("#save17").addEventListener("click", function(){
-    var input17= document.getElementById("fivepm").value;
-    alert(input17);
+    var input17 = document.getElementById("fivepm").value;
+    localStorage.setItem("input17", input17);
+    var savedevent17 = localStorage.getItem("input17");
+    input17 = savedevent17;
 });
 
 
