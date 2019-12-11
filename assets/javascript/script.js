@@ -129,9 +129,15 @@ else if (h == 17){
     document.getElementById("fivepm").setAttribute("style", "background-color: lightgreen;");
 }
 
+document.getElementById("nineam").value = localStorage.getItem("input9");
+
 document.querySelector("#save9").addEventListener("click", function(){
     var input9 = document.getElementById("nineam").value;
     alert(input9);
+    localStorage.setItem("input9", input9);
+    savedevent9 = localStorage.getItem("input9");
+    alert(savedevent9);
+    input9 = savedevent9;
 });
 
 document.querySelector("#save10").addEventListener("click", function(){
