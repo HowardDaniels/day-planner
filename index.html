@@ -1,14 +1,15 @@
 <html>
     <head>
-            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" href="assets/css/style.css">
-<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     </head>
     <body>
         <div id="header">Workday Scheduler</div>
         <div id="subheader">Today's date is <span id="weekday"></span>, <span id="today"></span>. The time is <span id="time"></span>.</div>
         <hr>
         <div id="schedule">
+            
         <div class="row">
             <div class="col-md-1" id="time">
                 9:00
@@ -16,14 +17,15 @@
             <div class="col-md-8" id="notes9">
                 <div class="input-group mb-3" id="event9">
                     <input type="text" class="form-control" id="nineam" placeholder="Type an event here." aria-label="Event" aria-describedby="button-addon1">
-                  </div>
+                </div>
             </div>
             <div class="col-md-1" id="save9">
                 <div class="input-group-append">
                     <button class="btn btn-outline-secondary" type="button" id="button-addon1">Save</button>
-                  </div>
+                </div>
             </div>
         </div>
+
         <div class="row">
             <div class="col-md-1" id="time">
                 10:00
@@ -34,132 +36,127 @@
                 </div>
             </div>
             <div class="col-md-1" id="save10">
-                    <div class="input-group-append">
-                            <button class="btn btn-outline-secondary" type="button" id="button-addon2">Save</button>
-                          </div>
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Save</button>
+                </div>
             </div>
         </div>
+
         <div class="row">
             <div class="col-md-1" id="time">
                 11:00
             </div>
             <div class="col-md-8" id="notes11">
-                    <div class="input-group mb-3">
-                            <input type="text" class="form-control" id="elevenam" placeholder="Type an event here." aria-label="Event" aria-describedby="button-addon3">
-                        </div>
-
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="elevenam" placeholder="Type an event here." aria-label="Event" aria-describedby="button-addon3">
+                </div>
             </div>
             <div class="col-md-1" id="save11">
-                    <div class="input-group-append">
-                            <button class="btn btn-outline-secondary" type="button" id="button-addon3">Save</button>
-                          </div>
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon3">Save</button>
+                </div>
             </div>
         </div>
+
         <div class="row">
             <div class="col-md-1" id="time">
                 12:00
             </div>
             <div class="col-md-8" id="notes12">
-                    <div class="input-group mb-3">
-                            <input type="text" class="form-control" id="twelvepm" placeholder="Type an event here." aria-label="Event" aria-describedby="button-addon4">
-                        </div>
-
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="twelvepm" placeholder="Type an event here." aria-label="Event" aria-describedby="button-addon4">
+                </div>
             </div>
             <div class="col-md-1" id="save12">
-                    <div class="input-group-append">
-                            <button class="btn btn-outline-secondary" type="button" id="button-addon4">Save</button>
-                          </div>
-
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon4">Save</button>
+                </div>
             </div>
         </div>
+
         <div class="row">
             <div class="col-md-1" id="time">
                 13:00
             </div>
             <div class="col-md-8" id="notes13">
-                    <div class="input-group mb-3">
-                            <input type="text" class="form-control" id="onepm" placeholder="Type an event here." aria-label="Event" aria-describedby="button-addon5">
-                        </div>
-
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="onepm" placeholder="Type an event here." aria-label="Event" aria-describedby="button-addon5">
+                </div>
             </div>
             <div class="col-md-1" id="save13">
-                    <div class="input-group-append">
-                            <button class="btn btn-outline-secondary" type="button" id="button-addon5">Save</button>
-                          </div>
-
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon5">Save</button>
+                </div>
             </div>
         </div>
+
         <div class="row">
             <div class="col-md-1" id="time">
                 14:00
             </div>
             <div class="col-md-8" id="notes14">
-                    <div class="input-group mb-3">
-                            <input type="text" class="form-control" id="twopm" placeholder="Type an event here." aria-label="Event" aria-describedby="button-addon6">
-                        </div>
-
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="twopm" placeholder="Type an event here." aria-label="Event" aria-describedby="button-addon6">
+                </div>
             </div>
             <div class="col-md-1" id="save14">
-                    <div class="input-group-append">
-                            <button class="btn btn-outline-secondary" type="button" id="button-addon6">Save</button>
-                          </div>
-
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon6">Save</button>
+                </div>
             </div>
         </div>
+
         <div class="row">
             <div class="col-md-1" id="time">
                 15:00
             </div>
             <div class="col-md-8" id="notes15">
-                    <div class="input-group mb-3">
-                            <input type="text" class="form-control" id="threepm" placeholder="Type an event here." aria-label="Event" aria-describedby="button-addon7">
-                        </div>
-
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="threepm" placeholder="Type an event here." aria-label="Event" aria-describedby="button-addon7">
+                </div>
             </div>
             <div class="col-md-1" id="save15">
-                    <div class="input-group-append">
-                            <button class="btn btn-outline-secondary" type="button" id="button-addon7">Save</button>
-                          </div>
-
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon7">Save</button>
+                </div>
             </div>
         </div>
+
         <div class="row">
             <div class="col-md-1" id="time">
                 16:00
             </div>
             <div class="col-md-8" id="notes16">
-                    <div class="input-group mb-3">
-                            <input type="text" class="form-control" id="fourpm" placeholder="Type an event here." aria-label="Event" aria-describedby="button-addon8">
-                        </div>
-
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="fourpm" placeholder="Type an event here." aria-label="Event" aria-describedby="button-addon8">
+                </div>
             </div>
             <div class="col-md-1" id="save16">
-                    <div class="input-group-append">
-                            <button class="btn btn-outline-secondary" type="button" id="button-addon8">Save</button>
-                          </div>
-
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon8">Save</button>
+                </div>
             </div>
         </div>
+
         <div class="row">
             <div class="col-md-1" id="time">
                 17:00
             </div>
             <div class="col-md-8" id="notes17">
-                    <div class="input-group mb-3">
-                            <input type="text" class="form-control" id="fivepm" placeholder="Type an event here." aria-label="Event" aria-describedby="button-addon9">
-                        </div>
-
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="fivepm" placeholder="Type an event here." aria-label="Event" aria-describedby="button-addon9">
+                </div>
             </div>
             <div class="col-md-1" id="save17">
-                    <div class="input-group-append">
-                            <button class="btn btn-outline-secondary" type="button" id="button-addon9">Save</button>
-                          </div>
-
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon9">Save</button>
+                </div>
             </div>
         </div>
+
         </div>
+
         <script src="assets/javascript/moment.min.js"></script>
-        <script src="assets/javascript/script.js">
-        </script>
+        <script src="assets/javascript/script.js"></script>
     </body>
 </html>
