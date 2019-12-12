@@ -3,7 +3,7 @@ $("#today").text(d);
 var wd = moment().format('dddd');
 $("#weekday").text(wd);
 var t = moment().format('LTS');
-$("#time").text(t);
+$("#timeofday").text(t);
 
 var t24 = moment().format();
 var h = parseInt(t24.substring(11, Math.min(t24.length, 13)));

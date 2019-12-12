@@ -12,16 +12,12 @@
     text-align: center;
 }
 
-#time{
-    border-color: white;
-}
-
 #schedule{
     margin-left: 10%;
 }
 
 #time{
-    background-color: white;
+    background-color: salmon;
     color: black;
     height: 75px;
     border: 2px solid black;
